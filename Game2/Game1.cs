@@ -1102,7 +1102,7 @@ namespace Game2
                 winner = 2;
             }
 
-            if (smallestScore != player.CardSum()) assaf = true;
+            if (smallestScore < player.CardSum()) assaf = true;
 
             for (int i = 0; i < numOfPlayers; i++)
             {
